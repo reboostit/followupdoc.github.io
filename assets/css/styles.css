@@ -212,6 +212,29 @@ section#about .about-item i.fa {
   transition: all 0.25s ease-in-out;
   width: 104px;
 }
+section#team {
+  position: relative;
+}
+section#team .team-item {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+  color: #999999;
+}
+section#team .team-item i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 104px;
+}
 section#features .media i.fa {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -847,6 +870,17 @@ section#about .about-item:hover i.fa {
   background: #66cdcc;
 }
 section#about .about-item:hover h3 {
+  color: #66cdcc;
+}
+section#team .team-item i.fa {
+  border: 2px solid #66cdcc;
+  color: #66cdcc;
+}
+section#team .team-item:hover i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section#team .team-item:hover h3 {
   color: #66cdcc;
 }
 section#features {
